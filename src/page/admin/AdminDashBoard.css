@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popUserList{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(211, 211, 211);
+}
+.asignPopUp{
+    
+    border-radius: 50px;
+    border: 1px solid #000;
+    float: right;
+}
+.asignPopUp button{
+    border: none;
+    background: transparent;
+    padding:0 7px;
+    
+}
+
+.sss_Assign{
+    position: fixed;
+    top: 350px;
+    
+}
+.sss_Unassign{
+    position: fixed;
+    top: 420px;
+}
+
+
+/* --------------responsive-------------------- */
+
+@media screen and (max-width:768px) {
+
+    .sss_Assign{
+        position: relative;
+        top: 220px;
+        left: 300px;
+
+    }
+    .sss_Unassign{
+        position: relative;
+        top: 220px;
+        left: 300px;
+
+    }
+    
+}
+
+@media screen and (max-width:520px) {
+    .sss_Assign{
+        position: relative;
+        top: 220px;
+        left: 200px;
+        font-size: 10px;
+
+    }
+    .sss_Unassign{
+        position: relative;
+        top: 220px;
+        left: 200px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:501px) {
+    .sss_Assign{
+        position: relative;
+        top: 220px;
+        left: 280px;
+        font-size: 12px;
+
+    }
+    .sss_Unassign{
+        position: relative;
+        top: 220px;
+        left: 280px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:480px) {
+    .sss_Assign{
+        position: relative;
+        top: 220px;
+        left: 240px;
+        font-size: 12px;
+
+    }
+    .sss_Unassign{
+        position: relative;
+        top: 220px;
+        left: 240px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:451px) {
+    .sss_Assign{
+        position: relative;
+        top: 220px;
+        left: 200px;
+        font-size: 12px;
+
+    }
+    .sss_Unassign{
+        position: relative;
+        top: 220px;
+        left: 200px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:398px) {
+    .sss_Assign{
+        position: relative;
+        top: 220px;
+        left: 200px;
+        font-size: 11px;
+
+    }
+    .sss_Unassign{
+        position: relative;
+        top: 220px;
+        left: 200px;
+        font-size: 12px;
+    }
+}
+

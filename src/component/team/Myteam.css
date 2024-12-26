@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+ 
+}
+.ST_upperSection{
+    margin: auto;
+    
+  
+}
+.ST_main {
+    border-radius: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+
+}
+
+.ST_Heading {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.ST_Name {
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+.ST_Heading1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.ST_Name1 {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.ST_Lead,
+.ST_User {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.S_tooltipButton{
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #D4CCE3;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.openTeamList{
+    display: block;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    padding: 5px 7px;
+    left: 96px;
+    background-color: rgb(95, 73, 138);
+    min-width: 300px;
+    width: auto;
+    max-width: 700px;
+    height: auto;
+    transition: all 0.4s linear;
+
+}
+.openTeamList::after{
+   
+
+    position: absolute;
+    content: "";
+    min-width: 18px;
+    width: auto;
+    height: 18px;
+    transform: rotate(225deg);
+    background-color: rgb(95, 73, 138);
+    /* background-color: white; */
+    z-index: 1;
+    top: 15px;
+    left: -9px;
+
+
+}
+
+.ST_assign {
+    list-style: none;
+}
+
+.ST_BlockButton {
+    border-radius: 4px;
+    border: 1px solid #FFB1B1;
+    background: #FFE2E2;
+    color: #F00;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.ST_BlockButton:hover {
+    background: #ec9090;
+    color: #FFF;
+}
+
+.ST_AssignButton {
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #D4CCE3;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.ST_AssignButton:hover {
+    background: rgb(183, 157, 232);
+    color: #FFF;
+}
+
+
+.custom-ul {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    width: max-content;
+    border-radius: 4px;
+    
+}
+.custom-li {
+    display: inline-block;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 4px;
+    margin:2px 0;
+}
+.btnHover{
+    border: 1px solid #ccc;
+    padding: 1px 10px;
+    border-radius: 4px;
+  
+    transition: all 0.1s ease-in-out;
+
+}
+.btnHover:hover{
+    background:#5F498A;;
+    color: #fff;
+}
+.fixTeamWidthsButton{
+    min-width: 100px;
+    max-width: 100px;
+ }

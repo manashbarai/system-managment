@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2a2d30;
+    --primary-leadBorder: #2a2d30;
+    --primary-selectBox:#919191;
+    /* Define your primary color */
+
+}
+.specific_width_border{
+    min-width: 190px;
+    max-width: 190px;
+    min-height: 50px;
+    overflow: auto;
+    max-height: 100px;
+    background: var(--primary-leadBorder);
+   margin: 0 2px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectLead{
+    min-width: 50px;
+    min-height:50px;
+}
+.specific_width_border_ForMenu{
+    font-size: 14px;
+    font-weight: bold;
+}
+.specific_width {
+    min-width: 187px;
+  
+    max-width: 187px;
+    border-radius: 8px;
+    list-style: none;
+    background: #fff;
+    
+    margin: 1px 1px;
+    overflow: auto;
+    min-height: 47px;
+   
+    max-height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.specific_width::-webkit-scrollbar-track {
+    border: 1px solid #f8f8f8;
+    padding: 2px 0;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.specific_width::-webkit-scrollbar {
+    width: auto;
+    height: 4px;
+}
+
+
+.specific_width::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 1px #fff;
+    background-color: var(--primary-leadBorder);
+    border: 1px solid #f0f0f0;
+}
+
+.leadList {
+    overflow: auto;
+}
+
+
+.leadList::-webkit-scrollbar-track {
+    border: 1px solid #f8f8f8;
+    padding: 2px 0;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.leadList::-webkit-scrollbar {
+    width: auto;
+    height: 6px;
+}
+
+
+.leadList::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px #fff;
+    background: var(--primary-leadBorder);
+    border: 1px solid #f0f0f0;
+}
+
+
+.leadSelectCheckBox {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+/* Style for the label */
+.checkbox-label {
+
+    display: inline-block;
+    width: 20px;
+    border-radius:6px;
+    height: 20px;
+    border: 1px solid var(--primary-selectBox);
+    cursor: pointer;
+   position: relative;
+
+}
+
+/* Style for the checkmark */
+.checkbox-label::after {
+    content: '';
+    display: block;
+    width:24px;
+    height: 5px;
+    border: solid var(--primary-selectBox);
+    border-width: 0px 0px 2px 2px;
+    transform: rotate(320deg);
+    position: absolute;
+    overflow: visible;
+    top: 0px;
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+}
+
+/* Show the checkmark when the checkbox is checked */
+input[type="checkbox"]:checked+.checkbox-label::after {
+    opacity: 1;
+}
+
+.selectButton {
+    border: 1px solid var(--primary-color);
+    color: #000
+}
+
+@media only screen and (max-width: 650px) {
+    .specific_width {
+        min-width: 90px;
+        max-width: 90px;
+        font-size: 10px;
+        min-height: 20px;
+       
+    }
+    .specific_width_border{
+        min-width: 87px;
+        max-width: 87px;
+        min-height: 21px;
+        overflow: hidden;
+        max-height: 22px;
+    }
+    .selectLead{
+        min-width: 25px;
+        min-height: auto;
+        max-height: 24px;
+        
+    }
+    .checkbox-label {
+        display: inline-block;
+        width: 15px;
+        border-radius: 6px;
+        height: 14px;
+        border: 1px solid var(--primary-selectBox);
+        cursor: pointer;
+        position: relative;
+        margin-top: 7px;
+    }
+}

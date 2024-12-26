@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+
+.crmBody {
+    background: rgb(246, 245, 245);
+    padding-bottom: 80px;
+    width: 100%;
+    min-height: 770px;
+}
+
+.my_borderMenu {
+    width: 220px !important;
+    transition: all 0.3s ease;
+}
+
+
+.mobileBorder {
+    /* Your existing styles */
+    width: 220px !important;
+    min-width: 220px !important;
+    border: 2px solid #EEE;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+    margin-top: 0 !important;
+    position: static;
+    height: fit-content;
+}
+
+
+.displayShow{
+    display: block;
+    
+}
+
+@media (max-width: 992px) {
+    .disPlayNone{
+        display:none
+    }
+    .displayShow{
+        display: block;
+    }
+    .mobileBorder {
+        position: fixed;
+        z-index: 2;
+        top: 10px;
+        left: 1%;
+        max-height: calc(100vh - 20px); /* Subtract 20px from the viewport height for padding */
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+}
+
+.dashBoardHeading {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.textColor {
+    color: rgba(168, 168, 168, 0.75);
+
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.leadsFont {
+
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mobileMenuBtn {
+    position: fixed;
+    background: #fff;
+    z-index: 2;
+    top: 3px;
+    right: 4% !important;
+  }
+  
+  .paddingLeft{
+    padding-left: 30px;
+  }
+  .marginLeft{
+    margin-left: 30px;
+  }
+  @media (max-width: 1400px) {
+    .paddingLeft{
+      padding-left: 0px;
+    }
+    .marginLeft{
+      margin-left: 0px;
+    }
+    .container-md {
+      max-width: none !important;
+    }
+  
+    .container-sm {
+      max-width: none !important;
+    }
+  
+  }
+  
+  :root {
+    --text-option-color: rgb(145, 145, 145);
+    --bg-color: rgb(145, 145, 145);
+    --text-white-color: #fff;
+    --text-theme-color: #5F498A;
+    --option-bg-color: #F6F6F6;
+    /* Define your primary color */
+  
+  }

@@ -1,0 +1,114 @@
+
+
+
+.LG_Background {
+    background: rgba(171, 34, 221, 0.5);
+   width: 100%;
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.LG_Popup {
+    border: 20px solid #452E74;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 20px 20px 5px rgba(0, 0, 0, 0.10);
+ max-width: 60%;
+  height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.LG_upperSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: #452E74;
+}
+
+.LG_historY{
+    color: #FFF;
+font-family: Nunito;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.LG_Close {
+ display: flex;
+ justify-content: flex-end;
+
+}
+
+#LG_closeButton {
+    border: none;
+    background: none;
+}
+
+.LG_Name, .LG_Email, .LG_Phone{
+    list-style: none;
+    font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.LG_Value{
+    color: #908f8f;
+    font-size: 22px;
+}
+
+/* .LG_Edit{
+    background: #452E74;
+border-radius: 8px;
+color: #fff;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.LG_Edit:hover{
+    background: none;
+    border: 1px solid #452E74;
+    color: #452E74;
+} */
+.LG_Candidatephone {
+    background: none;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #908f8f;
+
+}
+.LG_Candidateemail{
+    background: none;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #908f8f;
+}
+
+.LG_Profile-button{
+background: #452E74;
+border-radius: 8px;
+color: #fff;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.LG_Profile-button:hover{
+    background: none;
+    border: 1px solid #452E74;
+    color: #452E74;
+}

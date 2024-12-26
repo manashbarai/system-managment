@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+ 
+}
+.ST_upperSection{
+    margin: auto;
+    
+  
+}
+.ST_main {
+    border-radius: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+    
+}
+
+.ST_Heading {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+
+
+
+
+.ST_Lead,
+.ST_User {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.ST_assign {
+    list-style: none;
+}
+
+.ST_BlockButton {
+    border-radius: 4px;
+    border: 1px solid #FFB1B1;
+    background: #FFE2E2;
+    color: #F00;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px;
+}
+
+.ST_BlockButton:hover {
+    background: #ec9090;
+    color: #FFF;
+}
+
+.ST_AssignButton {
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #D4CCE3;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    
+}
+
+.ST_AssignButton:hover {
+    background: rgb(183, 157, 232);
+    color: #FFF;
+}
+.fixTeamWidths{
+    /* width: 160px;
+    min-width: 150px;
+    background: #D4CCE3;
+    margin: 0 2px; */
+    list-style: none;
+}
+
+.ss_Leadname, .ss_Teammember, .ss_Assignleads, .ss_AdminName {
+    list-style: none;
+   
+
+}
+.fixTeamWidths{
+    min-width: 117px;
+    width: 170px;
+}

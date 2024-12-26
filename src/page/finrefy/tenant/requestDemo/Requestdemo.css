@@ -1,0 +1,104 @@
+.sr_Firstbackground {
+    /* background: #6440a7; */
+  
+    background-image: linear-gradient(to left, rgba(205, 46, 254, 0), rgb(77, 36, 155)80%), url('../../../Images/Customer-engagement-strategies.webp');
+
+    background-size: cover;
+    padding: 50px 20px 50px 20px;
+}
+
+.sr_Schedule {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.sr_Para1{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sr_Whatcan{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sr_List1{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.sr_Form {
+    background: rgba(117, 102, 129, 0.5);
+    opacity: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgb(52, 18, 61);
+}
+
+.sr_Get {
+    text-align: center;
+}
+
+.sr_Main,
+.sr_Para {
+    text-align: center;
+}
+
+.sr_Inputarea {
+    min-width: 80%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 5px 10px  5px 70px;
+    font-size:17PX;
+    color:#4D249B
+
+}
+.sr_Inputarea22 {
+    min-width: 80%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+   
+    font-size:17PX;
+    color:#4D249B
+}
+
+.sr_Company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr_Inputarea1 {
+width: 90%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 24px;
+    min-width: 80%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 5px 10px  5px 70px;
+    font-size:17PX;
+    color:#4D249B
+}
+
+.countryCode {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%); 
+}
+.sr_Submit{
+    background: #4D249B;
+    color: #fff;
+    font-size: 20px;
+}

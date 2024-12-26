@@ -1,0 +1,78 @@
+.statusBackground{
+    background-image: linear-gradient(29deg,#f2f2f2 10%,#fff 90%);
+    border:1px solid rgb(115, 91, 115);
+    border-radius: 4px;
+    
+    padding:4px 10px
+}
+.statusButton{
+   
+font-size:15px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+border: 1px solid rgba(168, 168, 168, 1);
+color:rgba(168, 168, 168, 1);
+padding: 2px 10px;
+border-radius: 10px;
+
+}
+.statusButtonActive{
+    color: rgba(95, 73, 138, 1);
+    border: 1px solid rgba(95, 73, 138, 1);
+
+}
+.openStatus{
+    background-image: linear-gradient(#3828c9, #8697dd );
+}
+.closeStatus{
+    background-image: linear-gradient(#fe0503, #f67b56 );
+}
+.inProgressStatus{
+    background-image: linear-gradient(#6706a7, #af8af0 );
+}
+.completedStatus{
+    background-image: linear-gradient(#03fe04, #75e78b );
+}
+.followStatus{
+    background-image: linear-gradient(#fc7c02, #f4b338 );
+}
+.connectedStatus{
+    background-image: linear-gradient(#6de982, #09fd0b );
+}
+.invalidStatus{
+    background-image: linear-gradient(#8f73f2, #220787 );
+}
+.dnpStatus{
+    background-image: linear-gradient(#fca897, #ba021c );
+}
+.wrongStatus{
+    background-image: linear-gradient(#ffd300, #ffa600 );
+}
+.interestStatus{
+    background-image: linear-gradient(#7a007e, #340066 );
+}
+.statusButton{
+ 
+border-radius: 10px;
+padding: 5px 10px;
+color: #fff;
+font-weight: 400;
+font-size: 18px;
+
+}
+.numberBox{
+    width: auto;
+    padding: 0 5px ;
+    display: flex;
+    align-items: center;
+    height: 37px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+}
+.react-datepicker__input-container{
+    width: 140px !important;
+    
+}

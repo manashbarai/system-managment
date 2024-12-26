@@ -1,0 +1,17 @@
+.ss_PDetails{
+    display: flex;
+    background: #888;
+}
+
+.ss_Pname, .ss_PPrice, .ss_NoUser{
+    list-style: none;
+    font-size: 28px;
+}
+.ss_PData{
+    display: flex;
+}
+
+.ss_PName1, .ss_PPrice1, .ss_NoUser1{
+    list-style: none;
+    font-size: 20px;
+}

@@ -1,0 +1,21 @@
+.waiting-animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .waiting-text {
+    font-size: 24px;
+    animation: bounce 1s infinite alternate; /* Add bounce animation */
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateY(0); /* Start position */
+    }
+    to {
+      transform: translateY(-10px); /* End position */
+    }
+  }
+  

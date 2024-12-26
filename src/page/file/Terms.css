@@ -1,0 +1,43 @@
+.sterms_Firstbackground {
+    background-image: url(./Images/pricing\ Banner.svg);
+    padding: 120px 0px 120px 0px;
+    background-size: cover;
+}
+
+.sterms_heaDing{
+color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+text-align: center;
+}
+
+.sterms_Find{
+border-bottom: 4px solid #fff;
+border-radius: 8px;
+max-width: 40%;
+margin: auto;
+}
+
+.sterms_heroSection{
+    margin-top: 80px;
+}
+
+.sterms_Para1, .sterms_Para2, .sterms_Para3, .sterms_List, .sterms_Para5, .sterms_Para6, .sterms_Para6, .sterms_Para8{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+
+}
+
+.sterms_Cookies, .sterms_License, .sterms_Must, .sterms_Warrant, .sterms_Approved, .sterms_Frame, .sterms_Content{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}

@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+}
+
+@media only screen and (max-width: 375px) {
+  .chk {
+    background: "transparent";
+    width: "20px";
+    height: "20px";
+    border: "1px solid #fff";
+    borderRadius: "4px";
+
+
+
+
+
+
+
+
+
+  }
+}
+
+body {
+
+
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5F498A; */
+}
+
+h2 {
+  color: white;
+}
+
+
+.A_Login {
+  color: #FFF;
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.A_Input {
+  text-align: center;
+}
+
+.A_UsernameInputtext {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #5F498A;
+  border-radius: 6px;
+  border: 1px solid #AB96DB;
+  padding: 10px 10px;
+
+  padding-left: 40px;
+}
+
+.A_UsernameInputtext:focus {
+  outline: none;
+
+}
+
+.A_UsernameInputtext::placeholder {
+  color: #FFF;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.A_Pass {
+  text-align: center;
+}
+
+.A_Password {
+  width: 100%;
+  background-color: #5F498A;
+  border-radius: 6px;
+  border: 1px solid #AB96DB;
+  flex-shrink: 0;
+  padding: 10px 10px;
+  margin-bottom: 8px;
+  padding-left: 40px;
+}
+
+.A_Password::placeholder {
+  color: #FFF;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+button {
+  background-color: #e6eaef;
+  cursor: pointer;
+  margin-left: 40px;
+  width: 450px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #FFF;
+  color: #5F498A;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 80%;
+}
+
+button:hover {
+  background-color: #280e5c;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFF;
+}
+
+.A_notAccount {
+  color: #9C9C9C;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.A_Signup {
+  color: #FFF;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.A_Signup:hover {
+  text-decoration: none;
+}
+
+
+
+.A_Remember {
+  display: flex;
+  justify-content: space-between;
+  color: #9C9C9C;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 18px;
+  width: 100%;
+  margin-left: 4px;
+  padding-bottom: 10px;
+  margin-top: -17px;
+  background-color: #5F498A;
+
+}
+
+
+input[type='checkbox'] {
+  /* accent-color: #5F498A; */
+  /* background-color: #5F498A; */
+  font-style: normal;
+  width: 20px;
+  height: 18px;
+
+
+}
+
+.A_me {
+  margin-left: -60px;
+
+}
+
+.A_Submit {
+  margin-left: 5px;
+  width: 100%;
+  border: none;
+}
+
+.A_condn {
+  width: 414px;
+  height: 46px;
+  flex-shrink: 0;
+  color: #9C9C9C;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.A_under {
+  color: #FFF;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline;
+
+}
+
+.forgt {
+  padding-left: 20px;
+  text-decoration-line: underline;
+}
+
+.lock {
+  position: relative;
+  bottom: 46px;
+  left: -19ch;
+  width: 18px;
+  height: 18px;
+}
+
+.envel {
+  position: relative;
+  bottom: 38px;
+  left: -19ch;
+  width: 18px;
+  height: 18px;
+}

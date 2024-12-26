@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]:checked+label {
+    color: red;
+
+}
+
+.ss_wholeBody{
+    min-width: 700px;
+}
+
+.selectButton {
+    color: var(--text-theme-color);
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    background: #fff;
+    line-height: normal;
+}
+
+.ss_Filterdata{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+
+.ss_Statesfilter{
+    
+}
+.ss_Coursefilter{
+    border: 1px solid var(--text-theme-color);
+    border-radius: 4px;
+    color: var(--text-theme-color);
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    background: #fff;
+    line-height: normal;
+    width: 50%;
+    height: 50%;
+}
+.ss_Statesfilter{
+    border: 1px solid var(--text-theme-color);
+    border-radius: 4px;
+    color: var(--text-theme-color);
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    background: #fff;
+    line-height: normal;
+    width: 150px;
+    height: 50%;
+}
+
+.SBU_BlockButton {
+    border-radius: 4px;
+    border: 1px solid #FFB1B1;
+    background: #FFE2E2;
+    color: #F00;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SBU_BlockButton:hover {
+    background: #ec9090;
+    color: #FFF;
+}
+
+.S_selectButton{
+    border-radius: 4px;
+border: 1px solid rgba(95, 73, 138, 0.25);
+background: var(--text-theme-color);
+color: #FFF;
+font-family: Nunito;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 5px;
+padding: 10px;
+}
+
+.S_selectButton:hover{
+    background: rgb(178, 154, 228);
+    color: #FFF;
+    border: none;
+}
+
+.s_Choosefile{
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    color: var(--text-theme-color);
+}
+
+
+.userDashBoardWidthFix{
+    width: 200px;
+    min-width: 200px;
+    list-style: none;
+    
+    text-align: left;
+    
+    
+    
+}
+/* ----------------------------Responsive-------------------- */

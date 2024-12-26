@@ -1,0 +1,426 @@
+.ssales_Firstbackground {
+    background-image: url(../Images/contactus\ banner.svg);
+    padding: 80px 0px 80px 0px;
+    background-size: cover;
+}
+
+.ssales_FirstOne{
+    margin: auto;
+}
+
+.ssales_firstHeading {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ssales_firstPara {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sales_Listorder{
+    padding: 0;
+}
+
+.sales_List1{
+    list-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ssales_Form{
+    border-radius: 10px;
+    background: #c6b6e3;
+    padding: 20px 20px 30px 20px;
+}
+
+.ssales_We{
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.ssales_Inputbox{
+    padding: 10px;
+}
+
+.ssales_requestbtn{
+    width: 100%;
+    border-radius: 6px;
+background: #4D249B;
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding: 10px;
+box-shadow: 0px 4px 4px 0px rgba(132, 131, 131, 0.25);
+
+}
+.ssales_requestbtn:hover{
+color: #FFF;
+}
+/* ----------------------------------------First Section Ends Here------------------------------------- */
+
+/* --------------Second Section---------------------- */
+
+.ssales_Secondbackground{
+    background:#F0EDF5;
+    padding: 60px 0px 60px 0px;
+}
+
+.ssales_Feature{
+    color: #4D249B;
+font-size: 38px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+}
+
+
+.ssales_Para1{
+    color: #5d5c5c;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.ssales_Group111{
+    margin-top: 80px;
+}
+
+.ssales_Box1{
+    background: #fff;
+    border-radius: 8px;
+    padding: 35px;
+}
+
+.ssales_Scoring{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ssales_Para2{
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* --------------Second Section ends here---------------------- */
+
+
+/* ---------------------------------Third Section------------------------------- */
+
+.ssales_Thirdbackground{
+    padding: 60px 0px 35px 0px;
+}
+
+.ssales_Run{
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;   
+}
+
+.ssales_Multiple{
+    color: #5d5c5c;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.ssales_ThirdContent{
+    padding-top: 50px;
+}
+
+.ssales_leadManage{
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.ssales_Para3{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ssales_thirdList{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ssales_Img1{
+    width: 100%;
+    height: auto;
+}
+
+.ssales_Img1 img{
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------Third Section ends here------------------------------- */
+
+/* ----------------------------------Fourth Section----------------------------------- */
+
+
+.ssales_Fourthbackground{
+    background:#F0EDF5;
+    padding: 80px 0px 35px 0px;
+  
+   
+}
+
+
+.ssales_Img2{
+    width: 100%;
+    height: auto;
+}
+
+.ssales_Img2 img{
+    width: 100%;
+    height: auto;
+}
+
+.ssales_leadManage{
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.ssales_Para3{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ssales_Smart{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.ssales_fourthList{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* --------------------------------------------Fourth Section Ends Here------------------------- */
+
+/* ----------------------------Fifth Section------------------------------------ */
+.ssales_Fifthbackground{
+    padding: 60px 0px 0px 0px;
+}
+
+.ssales_Reports{
+    color: #000;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.ssales_Para5{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ssales_Dashimg{
+    width: 100%;
+    height: auto;
+}
+.ssales_Dashimg img{
+    width: 100%;
+    height: auto;
+}
+
+.ssales_fifthContext{
+    display: flex;
+    gap: 10px;
+}
+
+.ssales_Conversation{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.ssales_Keep{
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+/* ----------------------------Fifth Section Ends here------------------------------------ */
+
+/* -------------------------------------------Sixth Section-------------------------------------- */
+
+.ssales_SixthBackground {
+    background-image: url(../Images/Mask\ group.svg);
+    background-size: cover;
+    padding: 60px 0px 100px 0px;
+    margin-top: 50px;
+}
+
+.ssales_Start {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.ssales_Using {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 194.444% */
+    text-align: center;
+}
+
+.ssales_Fiveminutes {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.ssales_Buttongroup {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.ssales_dEMo,
+.ssales_FreeTrial {
+    color: #4D249B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------------------------------------Sixth Section Ends Here-------------------------------------- */
+
+/* ------------------------------------------Responsive---------------------------------------- */
+
+@media screen and (max-width: 992px){
+    .ssales_First{
+        display: block;
+        width: 100%;
+    }
+
+    .ssales_FirstOne, .ssales_secondDiv{
+        min-width: 100%;
+    }
+
+    .ssales_Form{
+        margin-top: 30px;
+    }
+
+    .ssales_Group1111{
+        display: block;
+        min-width: 100%;
+    }
+
+    .ssales_Box1111{
+        min-width: 100%;
+    }
+
+    .ssales_Box1122{
+        margin-top: 20px;
+        min-width: 100%;
+    }
+
+    .ssales_rowSection{
+        display: block;
+    }
+
+    .ssales_thirdContext{
+        min-width: 100%;
+    }
+
+    .ssales_fourthRow{
+        display: block;
+    }
+
+    .ssales_FouthDiv, .ssales_FifthDiv{
+        min-width: 100%;
+    }
+
+    .ssales_fourthContext{
+        min-width: 100%;
+        margin-top: 20px;
+    }
+
+    .ssales_fifthRow{
+        display: block;
+    }
+
+    .ssales_fifthDiv2{
+        min-width: 100%;
+        margin-top: 20px;
+    }
+}

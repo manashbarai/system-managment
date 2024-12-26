@@ -1,0 +1,138 @@
+.sfaq_Firstbackground {
+    background-image: url(./Images/pricing\ Banner.svg);
+    padding: 100px 0px 120px 0px;
+    background-size: cover;
+}
+
+.sfaq_heaDing{
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+text-align: center;
+}
+
+.sfaq_Find{
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+
+
+
+/* ----------------------------------------First Section Ends Here------------------------------------- */
+
+/* -----------------------------Second Section------------------------------------- */
+
+.sfaq_Accordian{
+    margin-top: 80px;
+}
+.mainSection{
+   text-align: center;
+}
+.firstHead{
+    color: #2828C2;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.secondHead{
+    color: #2828C2;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.secondMain{
+    color: #100F10;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+.firstPara{
+    color: #5B5B5B;
+text-align: center;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px;
+}
+
+.viewButton{
+text-align: center;
+margin-bottom: 20px;
+}
+.viewButton1{
+    color: #FFF;
+font-family: Outfit;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 50px;
+background: #2828C2;
+border: none;
+}
+
+
+ .accordion-button::after{
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    /* background-image: url('/src/component/images/plus-circle.svg'); */
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    /* background-image: url('/src/component/images/Minus-curcle.svg'); */
+    transform: var(--bs-accordion-btn-icon-transform);
+} 
+
+.fa_first1{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.fa_Para1{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400; 
+    text-align: justify;
+}
+
+.fa_View{
+    display: flex;
+    justify-content: center;
+}
+
+.fa_viewMore{
+    border: 1px solid #2828C2;
+    border-radius: 8px;
+    background: none;
+    color: #2828C2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500; 
+    text-align: justify;
+    
+}
+
+.fa_viewMore:hover{
+    background: #2828C2;
+    color: #fff;
+}

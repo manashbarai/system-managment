@@ -1,0 +1,104 @@
+.legend-item-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+}
+
+
+
+.sd_MainBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.sd_Box1 {
+    border: 1px solid #D3CBFB;
+    border-radius: 8px;
+    padding: 25px;
+    min-width: 100px;
+
+    height: auto;
+}
+
+.sd_Totalcall {
+    color: #797D8C;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sd_Number {
+    color: #49278C;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sd_Number1 {
+    color: #1B00B9;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sd_Number2 {
+    color: #E61B1B;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sd_Number3 {
+    color: #C8005D;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sd_Viewmore {
+    color: #5F498A;
+    text-align: right;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.sd_Linechart {
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 25px;
+}
+
+.sd_Leadsmonth {
+    border-radius: 5px;
+    border: 1px solid #D3CBFB;
+    background: #FFF;
+    padding: 10px;
+    color: #767676;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 600px) {
+    .recharts-wrapper {
+        width:200px !important;
+    }
+}

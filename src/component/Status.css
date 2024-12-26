@@ -1,0 +1,178 @@
+.ss_mainStatuses {
+    width: 100%;
+}
+
+.ss_Statuses {
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    background: #fff;
+  
+    justify-content: space-between;
+}
+
+.ss_statusBox1 {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #FD7A00 0%, #F4B53A 100%);
+    cursor: pointer;
+    width: 127px;
+    height: 112px;
+    border-radius: 15px;
+
+}
+
+.ss_statusNo1 {
+    width: 46px;
+    height: 36.75px;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.ss_Newlead {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ss_StatusBox23 {
+    min-width: 70px;
+
+    height: 112px;
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ss_StatusNo22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 46px;
+    height: 36.75px;
+    border-radius: 10px;
+
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.ss_stautusLeads {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .ss_Statuses {
+        box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+        border: 1px solid #EEE;
+        border-radius: 5px;
+        background: #fff;
+       
+        
+        justify-content: space-between;
+        overflow: auto;
+    }
+
+    .ss_StatusNo22 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 25px;
+        height: 25.75px;
+        border-radius: 10px;
+
+        font-size: 13px;
+        border-radius: 10px;
+
+    }
+
+    .ss_StatusBox23 {
+        min-width: 110px;
+        
+        height: auto;
+        padding-top: 10px;
+        flex-grow: 1 !important;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .ss_stautusLeads {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .ss_Statuses {
+        box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+        border: 1px solid #EEE;
+        border-radius: 5px;
+        background: #fff;
+      
+     
+        overflow: auto;
+    }
+    
+   
+
+    .ss_StatusNo22 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 25px;
+        height: 25.75px;
+        border-radius: 10px;
+       flex-grow: 1;
+
+        font-size: 13px;
+        border-radius: 10px;
+
+    }
+
+    .ss_StatusBox23 {
+        min-width: 90px;
+        max-width: auto !important;
+        height: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-grow: 1;
+       
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ss_stautusLeads {
+        font-size: 13px;
+    }
+
+}

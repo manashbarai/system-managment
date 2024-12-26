@@ -1,0 +1,172 @@
+.ss_Createuser {
+    font-size: 12px;
+    cursor: pointer;
+    background: rgba(95, 73, 138, 0.3);
+    color: rgba(95, 73, 138, 1);
+    border-radius: 4px;
+    padding: 3px;
+}
+.cu_Heading{
+    display: flex;
+}
+.cu_Name{
+    font-size: 16px;
+}
+.cu_textArea {
+    width: 100%;
+}
+
+.ss_heroSection {
+    min-width: 100%;
+    margin: auto;
+}
+
+.ss_Useremail {
+    font-size: 16px;
+}
+
+.cu_Data {
+    display: flex;
+    justify-content: center;
+}
+
+.ss_deleteButton {
+    font-size: 12px;
+    cursor: pointer;
+    background: rgba(95, 73, 138, 0.3);
+    color: rgba(95, 73, 138, 1);
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+.ss_inviteLink {
+    font-size: 12px;
+    cursor: pointer;
+    background: rgba(95, 73, 138, 0.3);
+    color: rgba(95, 73, 138, 1);
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+/* -----------------------------responsive------------------------------------- */
+
+@media screen and (max-width:1400px) {
+    .ss_Createuser {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .ss_Createuser {
+        width: 70px;
+    }
+
+    .cu_Data {
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ss_heroSection {
+        min-width: 644px;
+    }
+
+    .ss_creatNewUser {
+        min-width: 800px;
+    }
+
+    .ss_recentlyAdded {
+        min-width: 800px;
+    }
+}
+
+@media screen and (max-width:907px) {
+    .ss_heroSection {
+        min-width: 621px;
+    }
+
+    .ss_creatNewUser {
+        min-width: 780px;
+    }
+
+    .ss_recentlyAdded {
+        min-width: 780px;
+    }
+}
+
+@media screen and (max-width:835px) {
+    .ss_heroSection {
+        min-width: 580px;
+    }
+
+    .ss_creatNewUser {
+        min-width: 710px;
+    }
+
+    .ss_recentlyAdded {
+        min-width: 710px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .ss_creatNewUser {
+        min-width: 574px;
+    }
+
+    .ss_recentlyAdded {
+        min-width: 574px;
+    }
+
+    .ss_deleteButton, .ss_inviteLink{
+        font-size: 10px;
+    }
+    
+    .cu_Name, .ss_Useremail{
+        font-size: 14px;
+    }
+    .ss_Useremail{
+        min-width: 180px;
+    }
+
+    .ss_deleteButton{
+        height: 20px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:655px) {
+
+ .ss_heroSection{
+    min-width: 559px;
+ }
+ .ss_creatNewUser {
+    min-width: 100px;
+}
+
+.ss_recentlyAdded {
+    min-width: 100px;
+}
+}
+@media screen and (max-width:607px) {
+
+ .ss_heroSection{
+    min-width: 450px;
+ }
+
+ .cu_Data{
+    display: flex;
+    position: relative;
+    right: 19px;
+ }
+
+}
+@media screen and (max-width:540px) {
+
+ .cu_Heading{
+    display: block;
+ }
+
+}
+

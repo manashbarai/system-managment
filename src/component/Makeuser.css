@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+ 
+}
+.SU_upperSection{
+    margin: auto;
+    
+  
+}
+.SU_main {
+    border-radius: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+
+}
+
+.SU_Heading {
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.SU_Name {
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+.SU_Heading1 {
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.SU_Name1 {
+    display: flex;   
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.SU_Email,
+.SU_User {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.SU_assign {
+    list-style: none;
+}
+
+.SU_BlockButton {
+    border-radius: 4px;
+    border: 1px solid #FFB1B1;
+    background: #FFE2E2;
+    color: #F00;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SU_BlockButton:hover {
+    background: #ec9090;
+    color: #FFF;
+}
+
+.SU_AssignButton {
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #D4CCE3;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SU_AssignButton:hover {
+    background: rgb(183, 157, 232);
+    color: #FFF;
+}
+
+/* -----------------------Responsive--------------------------------- */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 540px) {
+
+    /* .SU_Heading {
+        display: block;
+        text-align: center;
+    }
+
+    .SU_Heading1 {
+        display: block;
+        text-align: center;
+    } */
+
+    .SU_Name1,
+    .SU_Email,
+    .SU_User {
+        display: flex;
+        justify-content: center;
+    }
+
+    .SU_assign{
+        margin-top: 5px;
+     }
+}
+
+@media screen and (max-width: 940px) {
+
+    .SU_main{
+        overflow: auto;
+        min-width: 700px;
+    }
+
+    .SU_Name1{
+        font-size: 15px;
+    }
+
+    .SU_Email, .SU_User{
+        font-size: 14px;
+    }
+
+    .SU_BlockButton, .SU_AssignButton{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .SU_main{
+        min-width: 514px;
+    }
+
+    .SU_Heading, .SU_Heading1{
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+}
+

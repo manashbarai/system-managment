@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]:checked+label {
+    color: red;
+
+}
+
+.selectButton {
+  
+
+    flex-shrink: 0;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    background: #fff;
+    line-height: normal;
+}

@@ -1,0 +1,48 @@
+CRM PRoject 
+..................................
+All Are Get Call Api
+const USERS = `https://crmapi.edureify.com/api/v1/allUser`;//get all user
+const USER = `https://crmapi.edureify.com/api/v1/user/{userId}`;//get one user
+
+const TEAM = `https://crmapi.edureify.com/api/v1/team`;// get all team
+
+const LIVEFEED = `https://crmapi.edureify.com/api/v1/liveFeed?page={number}`; // live feed , activity on user
+const ALL_STATE = `https://crmapi.edureify.com/api/v1/states`; // to get all state name
+const RAZORPAY = `https://crmapi.edureify.com/api/v1/apiKey`
+const STATUS_WITH_COUNT =`http://localhost:8000/api/v1/count/leads/{userId}?userRole={2}&myLead=true` // for status
+const STATUS_WITH_COUNT =`http://localhost:8000/api/v1/count/leads/{userId}?userRole={2}&myLead=true&aboutStatus=callingStatus` // for calling status
+
+const LEADACCORDINGSTATUS=`http://localhost:8000/api/v1/classify/leads/userId?userRole={1}&status={2}&page=1&limit=10&myLead=false&todaysFollowUp===false&aboutStatus=status `
+only calling status get=`http://localhost:8000/api/v1/callingStatus`
+token verifyRoute=`http://localhost:8000/api/v1/verifyToken`
+
+
+
+
+
+
+
+All post calling
+//.......................................................................................................
+upload excel data=`http://localhost:8000/api/v1/upLoadExcelData`
+update status =`http://localhost:8000/api/v1/statusHistory/{leadId}/{userId}`
+calling status=`http://localhost:8000/api/v1/callingStatus`
+payment=`http://localhost:8000/api/v1/payment`
+
+
+
+
+
+
+
+put call 
+admin  lead assigned to user  =`http://localhost:8000/receiveLeads/{leadId}/{userId}`
+change user role=`http://localhost:8000/api/v1/change_user_role/:id`
+
+
+
+
+
+delete call 
+delete all Lead Data=`http://localhost:8000/api/v1/deleteAllLiveFeed`
+

@@ -1,0 +1,128 @@
+/* 
+
+
+.CH_Background {
+    background: rgba(171, 34, 221, 0.5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.CH_Popup {
+    border: 20px solid #452E74;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 20px 20px 5px rgba(0, 0, 0, 0.10);
+    max-width: 600px;
+    max-height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.CH_upperSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: #452E74;
+}
+
+.CH_historY{
+    color: #FFF;
+font-family: Nunito;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.CH_Close {
+ display: flex;
+ justify-content: flex-end;
+
+}
+
+#CH_closeButton {
+    border: none;
+    background: none;
+}
+
+.CH_Name, .CH_Email, .CH_Phone{
+    list-style: none;
+    font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.CH_Value{
+    color: #908f8f;
+    font-size: 22px;
+}
+
+.CH_Edit{
+    border: none;
+    background: none;
+}
+.CH_Candidatephone {
+    background: none;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #908f8f;
+
+}
+.CH_Candidateemail{
+    background: none;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #908f8f;
+}
+.CH_Sendemail{
+    background: none;
+    border: 1px solid #452E74;
+    color: #452E74;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CH_Sendemail:hover{
+    color: #fff;
+    background: #452E74;
+   padding: 8px 8px;
+}
+
+.CH_Whatsapp{
+    border: none;
+    background: none;
+}
+
+.CH_Whatsapp img{
+    width: 70%;
+}
+
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 498px) {
+    .CH_Name, .CH_Email, .CH_Phone{
+      
+    font-size: 20px;
+    
+    }
+
+    .CH_Candidateemail, .CH_Candidatephone{
+        font-size: 18px;
+    }
+
+    .CH_Sendemail{
+        font-size: 10px;
+    }
+} */

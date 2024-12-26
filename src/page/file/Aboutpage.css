@@ -1,0 +1,196 @@
+.sabout_firstSection {
+    background-image: url('./Images/AboutImg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sabout_aboutMain {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 0px;
+}
+
+.sabout_aboutUs {
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    ;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.sabout_firstPara {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+
+/* ------Second--------- */
+
+.sabout_firstlist {
+    display: flex;
+    gap: 30px;
+    padding: 0px;
+}
+
+.sabout_homeList {
+    list-style-type: none;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.sabout_aboutList {
+    color: #4D249B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.sabout_secondMainDiv {
+    background-color: #F0F0F0;
+}
+
+.sabout_secondSecDiv {
+    text-align: center;
+    padding: 50px;
+}
+
+.sabout_thirdAboutUs {
+    color: #4D249B;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+.sabout_customerRelation {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sabout_secondPara {
+    color: #647390;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ---------Third---------- */
+
+.sabout_firstImage {
+    width: 100%;
+    height: 300px;
+
+}
+
+.sabout_thirdPara {
+    color: #647390;
+    ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sabout_sideBorder {
+    border: 1px solid #4D249B;
+    width: 5%;
+}
+
+.sabout_crmStory {
+    margin-top: -32px;
+    padding-left: 35px;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.sabout_story {
+    color: #4D249B;
+}
+
+/* ------Fifth------- */
+.sabout_fifthSection {
+    background-color: #F0F0F0;
+    padding-bottom: 30px;
+}
+
+.sabout_ourTeam {
+    color: #4D249B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 30px; */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sabout_crmTeam {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sabout_fifthSpan {
+    color: #4D249B;
+
+}
+
+.sabout_fifthPara {
+    color: #647390;
+    text-align: center;
+    ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.sabout_imagesDiv {
+    margin: auto;
+}
+
+.sabout_First1 {
+    display: grid;
+    justify-content: center;
+}
+
+.sabout_marketManager {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.sabout_jobDescription {
+    color: #4D249B;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+
+}

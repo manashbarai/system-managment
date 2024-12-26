@@ -1,0 +1,315 @@
+.design {
+    background: rgba(0, 0, 0, 0.60);
+    margin-top: 0;
+    overflow: auto !important;
+}
+
+input::placeholder {
+    font-size: 15px !important;
+}
+
+.emailIcon {
+    top: "30px"
+}
+
+.S_LogIn {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.loginInputAreas input {
+    width: 100%;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 12px 30px 12px 50px;
+    margin: 12px 0;
+    position: relative;
+    background: #5F498A;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.loginInputAreas input:focus {
+    background-color: #b778f6;
+}
+
+.loginInputAreas input::placeholder {
+    color: #fff;
+}
+
+/* .form-control:focus {
+    border: none;
+    box-shadow: rgba(66, 65, 66, 0.2) 0px 10px 8px 0px !important;
+} */
+
+.my_bg {
+    background: #5F498A;
+}
+
+.loginbtn {
+    background-color: #fff;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    margin: 20px 0px;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.loginbtn:hover{
+    color: #FFF;
+    background: #49147f;
+}
+
+.S_ChecboxSection {
+    display: flex;
+    justify-content: space-between;
+    width: 41%;
+    margin: auto;
+}
+
+.S_checkBox{
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-top:4px;
+}
+.S_rememberMeSection{
+    display: flex;
+    gap: 5px;
+}
+.S_Remember{
+    color: #9C9C9C;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.S_ForgotPassword{
+    color: #9C9C9C;
+text-align: center;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+cursor: pointer;
+}
+
+.S_ForgotPassword:hover{
+  color: #FFF;
+}
+
+.S_Conditions{
+    color: #9C9C9C;
+text-align: center;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.S_Conditions span{
+    color: #FFF;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+cursor: pointer;
+}
+
+.S_Haveaccount{
+    color: #9C9C9C;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.S_Haveaccount span{
+    color: #FFF;
+font-family: Nunito;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+}
+.orOption {
+    order-radius: 10px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    width: 51px;
+    height: 34px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+
+}
+
+.crossBtnss {
+    position: absolute;
+    top: -11px;
+    right: -13px;
+    border-radius: 50PX;
+    background-color: #fff;
+    z-index: 1;
+    transition: all 0.4s linear;
+    color: #857f7f;
+}
+
+.crossBtnss:hover {
+    color: #49147f;
+}
+
+.loginButtonss {
+    margin: auto;
+
+}
+
+
+.socialMediass {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.signUpPageIcons {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+
+.signUpPageIcons img {
+    width: 100%;
+}
+
+.anotherOptions {
+    position: relative;
+    margin: 35px 0;
+    width: 42%;
+    background-color: #E6E6E6;
+    height: 1px;
+}
+
+.eyeicons {
+    position: absolute;
+    width: 18px;
+    top: 13px;
+    left: 91%;
+    cursor: pointer;
+}
+
+.eyeicons img {
+    width: 100%;
+
+}
+
+.loginCheckbox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check {
+    position: absolute;
+    top: -6px;
+    left: 1px;
+}
+
+
+.checkBoxStyle span {
+    margin-top: -4px;
+    margin-left: 4px;
+    color: #9C9C9C;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.crossBtnlandingPage {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 4px;
+    right: 11px;
+}
+
+@media only screen and (max-width: 600px) {
+    .eyeicons {
+        position: absolute;
+        width: 18px;
+        top: 13px;
+        left: 87%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .eyeicons {
+        position: absolute;
+        width: 18px;
+        top: 13px;
+        left: 87%;
+        cursor: pointer;
+    }
+}
+
+.abcRioButton {
+    background-color: #4285f4;
+    /* Your desired background color */
+    color: #cb1414 !important;
+    /* Your desired font color */
+}
+
+.abcRioButtonIcon {
+    background-image: none !important;
+    /* Remove the default Google icon background image */
+}
+
+.nsm7Bb-HzV7m-LgbsSe-BPrWId {
+    display: none !important;
+    color: red !important;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 715px){
+    .S_ChecboxSection{
+        width: 100%;
+    }
+}

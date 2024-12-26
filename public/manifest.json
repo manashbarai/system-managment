@@ -1,0 +1,22 @@
+{
+  "short_name": "CRM APP",
+  "description": "This For Lead Management",
+  "name": "Lead Management with CRM",
+  "icons": [
+    {
+      "src": "./appLogo.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./appLogo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#fff"
+}

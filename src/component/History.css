@@ -1,0 +1,392 @@
+
+
+.H_Background {
+    background: #5F498ACC;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.H_Popup {
+    border: 20px solid #452E74;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 20px 20px 5px rgba(0, 0, 0, 0.10);
+    width: 907px;
+    height: 626px;
+    margin: auto;
+    /* position: relative; */
+}
+
+.H_upperSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: #452E74;
+}
+
+.H_historY {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: transparent;
+    margin:10px 0 10px 0;
+}
+
+.H_Close {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#H_closeButton {
+    border: none;
+    background: none;
+}
+
+.H_heading {
+    padding: 10px 40px;
+}
+
+.h_Heading1 {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.H_Details {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.ss_userdata1111{
+    overflow: auto;
+    height: 345px;
+}
+
+.H_Name {
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.H_Leadstatus{
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.H_callingStatus{
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.H_statusDate{
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.H_locaTion{
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.H_coMment{
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.H_details1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.H_First1 {
+    display: flex;
+    gap: 6px;
+    list-style: none;
+}
+
+.H_Name1 {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.H_Status,
+.H_Location {
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.H_Time{
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal ;
+}
+.H_commentText{
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal ;
+}
+
+.H_Comment {
+    list-style: none;
+    padding: 10px;
+}
+
+.H_commentArea {
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #F0EFF3;
+    width: 98px;
+    height: 41px;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    transition: 0.4s all linear;
+}
+
+
+
+/* --------------------------------------------Responsive-------------------------------- */
+
+
+@media screen and (max-width: 992px){
+    .H_Popup{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .H_Popup{
+        width: 100%;
+        height: 100%;
+    }
+
+    .H_innerContent{
+        overflow: auto;
+        width: 100%;
+    }
+
+    .ss_userdata1111{
+        overflow: auto;
+        min-width: 700px;
+    }
+
+    .H_coMment{
+        /* position: relative; */
+        left: 207px;
+        margin: auto;
+    }
+
+    .H_locaTion{
+        /* position: relative; */
+        left: 205px;
+        margin: auto;
+    }
+
+    .H_statusDate{
+        /* position: relative; */
+        left: 117px;
+    }
+
+    .H_callingStatus{
+        /* position: relative; */
+        left: 111px;
+    }
+
+    .H_Leadstatus{
+        /* position: relative; */
+        left: 91px;
+    }
+    .H_Name{
+        /* position: relative; */
+        left: 12px;
+        margin: auto;
+    }
+
+    .H_commentText{
+        min-width: 100px;
+            /* position: relative; */
+    left: 54px;
+    }
+    
+}
+
+@media screen and (max-width: 533px){
+    .H_coMment{
+        /* position: relative; */
+        left: 249px;
+        font-size: 14px;
+    }
+
+    .H_locaTion{
+        /* position: relative; */
+        left: 188px;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .H_callingStatus {
+        /* position: relative; */
+        left: 102px;
+        font-size: 14px;
+    }
+
+    .H_statusDate{
+        /* position: relative; */
+        left: 106px;
+        font-size: 14px;
+    }
+
+    .H_Leadstatus {
+        /* position: relative; */
+        left: 85px;
+        font-size: 14px;
+    }
+
+    .H_Name, .H_Name1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 529px){
+    .ss_userdata1111{
+        overflow: auto;
+        min-width: 750px;
+    }
+
+    .H_coMment {
+        /* position: relative; */
+        left: 301px;
+    }
+
+    .H_locaTion {
+        /* position: relative; */
+        left: 234px;
+        margin: auto;
+    }
+
+    .H_statusDate {
+        /* position: relative; */
+        left: 146px;
+    }
+
+    .H_callingStatus {
+        /* position: relative; */
+        left: 131px;
+    }
+
+    .H_Leadstatus {
+        /* position: relative; */
+        left: 110px;
+    }
+
+    .H_Name{
+        /* position: relative; */
+    left: 18px;
+    }
+}
+@media screen and (max-width: 523px){
+    .ss_userdata1111{
+        overflow: auto;
+        min-width: 800px;
+    }
+
+    .H_coMment {
+        /* position: relative; */
+        left: 360px;
+    }
+
+    .H_locaTion {
+        /* position: relative; */
+        left: 284px;
+        margin: auto;
+    }
+
+    .H_statusDate {
+        /* position: relative; */
+        left: 179px;
+    }
+
+    .H_callingStatus {
+        /* position: relative; */
+        left: 116px;
+    }
+
+    .H_Leadstatus {
+        /* position: relative; */
+        left: 151px;
+    }
+
+    .H_Name{
+        /* position: relative; */
+    left: 18px;
+    }
+}

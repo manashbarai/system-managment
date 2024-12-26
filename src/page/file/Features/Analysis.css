@@ -1,0 +1,432 @@
+@import 'https://fonts.googleapis.com/css?family=Rajdhani:700';
+
+.sanalysis_Firstbackground {
+    background-image: url(../Images/contactus\ banner.svg);
+    padding: 80px 0px 80px 0px;
+    background-size: cover;
+}
+
+.sanalysis_FirstOne {
+    margin: auto;
+}
+
+.sanalysis_firstHeading {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* @keyframes background {
+    from {
+        background-position: 0 0%;
+    }
+
+    to {
+        background-position: 0 -200px;
+    }
+}
+
+.sanalysis_Crm {
+    background: url(http://html5book.ru/wp-content/uploads/2016/08/bubbles.png) repeat;
+    font-size: 70px;
+    background-size: 200px auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: white;
+    animation: background 10s infinite linear;
+} */
+
+.sanalysis_firstPara {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sanalysis_Book {
+    border-radius: 6px;
+    background: #4D249B;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 8px 25px 8px 25px;
+    box-shadow: 0px 4px 4px 0px rgba(132, 131, 131, 0.25);
+}
+
+.sanalysis_Book:hover {
+    border: 2px solid rgba(132, 131, 131, 1.5);
+    border-radius: 6px;
+    background: none;
+    color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(132, 131, 131, 0.25);
+}
+
+/* -------------------------First Section Ends Here----------------------------------- */
+
+/* --------------------------Second Section------------------------------------ */
+
+.sanalysis_Secondbackground {
+    padding: 50px 0px 50px 0px;
+}
+
+.sanalysis_Analytical {
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sanalysis_Para2 {
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+/* --------------------------Second Section Ends Here------------------------------------ */
+
+/* -------------------Third Section----------------------- */
+
+.sanalysis_thirdBackground {
+    padding: 50px 0px 50px 0px;
+}
+
+.sanalysis_FirstPart,
+.sanalysis_SecondPart {
+    margin: auto;
+}
+
+.sanalysis_thirdGroup {
+    display: flex;
+    gap: 8px;
+}
+
+.sanalysis_Text1 {
+    display: flex;
+    gap: 15px;
+}
+
+.sanalysis_Multi {
+    color: #5d5c5c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+/* ---------------------------------------------Third Section ends Here----------------------------- */
+
+/* -----------------------------------------Fourth Section---------------------------------------- */
+
+.sanalysis_Fourtbackground {
+    padding: 50px 0px 50px 0px;
+    background: #f5f8fa;
+}
+
+.sanalysis_Image4 {
+    background: #4D249B;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.sanalysis_Image4 img {
+    width: 100%;
+    height: auto;
+}
+
+.sanalysis_Textgroup {
+    display: flex;
+    gap: 10px;
+}
+.sanalysis_Textgroup1 {
+    display: flex;
+    gap: 10px;
+    width: 37%;
+}
+
+.sanalysis_Part1 {
+    display: flex;
+}
+
+.sanalysis_Image45 {
+    width: 5%;
+    height: auto;
+}
+
+.sanalysis_Image45 img {
+    width: 100%;
+    height: auto;
+}
+
+.sanalysis_Dash {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+/* ----------------------------------------------Fourth section ends here-------------------------------- */
+
+/* ------------------------------------------fifth Section-------------------------------------- */
+
+
+.sanalysis_fifthBackground {
+    padding: 50px 0px 50px 0px;
+}
+
+.sanalysis_Custom {
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.sanalysis_FifthGroup{
+    display: flex;
+    gap: 20px;
+}
+
+.sanalysis_rePortS{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sanalysis_Para5{
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* ------------------------------------------fifth Section ends here-------------------------------------- */
+
+/* ---------------------------------Sixth Section-------------------------------------- */
+
+.sanlysis_Sixthbackground{
+    padding: 70px 0px 70px 0px;
+    background: #f5f8fa;
+}
+
+.sanalysis_dashboardImage{
+    width: 100%;
+    height: auto;
+}
+.sanalysis_dashboardImage img{
+    width: 100%;
+    height: auto;
+}
+
+.sanalysis_sixthHeading{
+    margin: auto;
+}
+
+.sanalysis_Salesdash{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sanalysis_Para6{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+/* -----------------------------------Sixth section ends here--------------------------------- */
+
+/* ---------------------------------------Seventh Section----------------------------------------- */
+
+
+.sanalysis_headinG7{
+    margin-top: 50px;
+}
+
+.sanalysis_Track{
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.sanalysis_Para7{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    text-align: center;
+}
+
+.sanalysis_seventhGroup{
+    display: flex;
+    gap: 20px;
+}
+
+.sanalysis_SeventhImage{
+    width: 100%;
+    height: auto;
+   
+}
+.sanalysis_SeventhImage img{
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------Seventh Section ends here----------------------------------------- */
+
+/* ---------------------------------------Eighth Section----------------------------------------- */
+
+.sanalysis_eighthBackground{
+    padding: 1px 0px 50px 0px;
+    background: #f5f8fa; 
+    margin-top: 50px;
+}
+
+.sanalysis_Benefits{
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sanalysis_customImg{
+    display: flex;
+    justify-content: center;
+}
+
+.sanalysis_Clearer{
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    text-align: center;
+}
+
+/* ---------------------------------------Eighth Section ends here----------------------------------------- */
+
+
+/* -------------------------------------------Ninth Section-------------------------------------- */
+
+.sanalysis_NinthBackground {
+    background-image: url(../Images/Mask\ group.svg);
+    background-size: cover;
+    padding: 80px 0px 100px 0px;
+}
+
+.sanalysis_Start {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.sanalysis_Using {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 194.444% */
+    text-align: center;
+}
+
+.sanalysis_Fiveminutes {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.sanalysis_Buttongroup {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sanalysis_dEMo,
+.sanalysis_FreeTrial {
+    color: #4D249B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* -------------------------------------------Ninth Section Ends Here-------------------------------------- */
+
+/* ----------------------Responsive---------------------- */
+
+.sanaysis_First, .sanalysis_FirstOne{
+    min-width: 100%;
+}
+
+.sanalysis_Image1{
+    max-width: 100%;
+    height: auto;
+}
+
+.sanalysis_Image1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 992px){
+    .sanalysis_Image4{
+        min-width: 100%;
+    }
+
+    .sanalysis_FifthDiv{
+        margin: auto;
+    }
+
+    .sanalysis_Salesdash {
+        font-size: 34px
+    }
+
+  
+}
+

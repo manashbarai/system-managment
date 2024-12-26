@@ -1,0 +1,72 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.sl_CompanyLogo{
+    width: 12%;
+    height: auto;
+}
+/* a{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+} */
+.sl_CompanyLogo img{
+    width: 100%;
+    height: auto;
+}
+
+.s_Navmiddle {
+    margin: auto;
+    gap: 30px;
+}
+
+.s_Home,
+.s_Solutions,
+.s_Products,
+.s_Resources,
+.s_Aboutus,
+.s_Contactus {
+    color: #414141;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.s_solutionDrop {
+    display: flex;
+}
+
+.s_Solutiondropdown {
+    display: flex;
+}
+
+.s_Login {
+    color: #1A032C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.s_Signup {
+    color: #0C2789;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid #101E9E;
+}
+
+.s_Signup:hover {
+    border-radius: 10px;
+    border: 1px solid #101E9E;
+    color: #101E9E;
+}

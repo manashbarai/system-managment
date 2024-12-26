@@ -1,0 +1,256 @@
+@media screen and (max-width: 1400px) {
+    .sl_Blank {
+        top: -16px;
+    }
+
+    .sl_fOurthSection1 {
+        margin-left: 0px !important;
+    }
+
+    .sl_Mail img {
+        left: 206px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .sl_fOurthSection1,
+    .sl_fOurthSection {
+        margin-left: 0px !important;
+    }
+
+    .sl_heroSection {
+        font-size: 54px;
+    }
+
+    .sl_Para1 {
+        font-size: 18px;
+    }
+
+    .sl_Para7 {
+        font-size: 16px;
+    }
+
+    .sl_Bg {
+        display: none;
+    }
+
+    .sl_Mail img {
+        left: 158px;
+    }
+
+    .sL_Title1 {
+        line-height: 23px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .sl_heroSection {
+        font-size: 34px;
+        line-height: normal;
+    }
+
+    .sl_Subscribe {
+        line-height: normal;
+    }
+
+    .sl_Mail img {
+        left: 101px;
+    }
+
+    .sl_Mail img {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 807px) {
+
+    .sl_Blank,
+    .sl_Blank1 {
+        width: 244px;
+    }
+
+    .sl_Work,
+    .sl_Anywhere {
+        font-size: 30px;
+    }
+
+    .sl_Para3 {
+        font-size: 15px;
+    }
+
+    .sl_Image111 {
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sl_Mail img {
+        left: 17px;
+        top: 18px;
+        width: 7%;
+    }
+
+    .search input {
+        text-indent: 54px;
+        width: 100%;
+    }
+
+    .s_SearchBar::placeholder {
+        font-size: 18px;
+
+    }
+
+    .sl_Subscribebutton {
+        font-size: 18px;
+    }
+
+    .SLA_socialmedia {
+        display: flex;
+        justify-content: left !important;
+        padding: 0px;
+    }
+
+    .sl_ThirdGroup,
+    .sl_FifthGroup {
+        display: block;
+    }
+
+    .sl_FifthGroup {
+        margin-top: 80px;
+    }
+
+    .sl_Blank,
+    .sl_Blank1 {
+        display: none;
+    }
+
+    .sl_ThirdBackground,
+    .sl_FifthBackground {
+        width: 100%;
+    }
+
+    .sl_Image111,
+    .sl_Image222 {
+        display: list-item;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .sl_fourthHeading {
+        line-height: 15px;
+    }
+
+    .sl_Edureifycrm {
+        line-height: 48px;
+    }
+
+    .sl_fourthGroup {
+        display: block;
+    }
+
+    .sl_FirstSection,
+    .sl_fOurthSection1,
+    .sl_fOurthSection {
+        display: flex;
+        justify-content: left;
+    }
+
+    .sl_Blog {
+        line-height: 10px;
+    }
+
+    .sl_Related,
+    .sl_Resources {
+        font-size: 32px;
+    }
+
+    .sl_inTeresred {
+        font-size: 16px;
+    }
+
+    .sl_Viewall {
+        line-height: normal;
+        padding: 9px;
+        width: 19vw;
+    }
+
+    .sl_CardSection {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sl_Seventhgroup {
+        margin-top: 60px;
+        gap: 20px;
+    }
+
+    .sl_ourCustomer {
+        font-size: 42px;
+    }
+
+    .sl_usernamE {
+        font-size: 22px;
+    }
+
+    .sl_Profession {
+        font-size: 14px;
+    }
+
+    .s_Subscribebutton {
+        font-size: 18px;
+    }
+
+    .sl_Join {
+        font-size: 38px;
+    }
+
+    .sl_Subscribe {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    .sl_Trust, .sl_Number{
+        line-height: normal;
+    }
+
+    .sl_Viewall {
+        width: 22vw;
+    }
+
+    .sl_Recognized, .sl_Simple{
+        font-size: 16px;
+    }
+
+    .search input {
+        text-indent: 44px;
+    }
+
+    .sl_ourCustomer {
+        font-size: 34px;
+    }
+
+    .sl_inTeresred {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 473px){
+    .sl_Viewall {
+        width: 28vw;
+        font-size: 14px;
+    }
+
+    .sl_ProfilepicImg{
+        width: 20%;
+    }
+
+    .sl_ProfilepicImg img{
+        width: 100%;
+    }
+
+}

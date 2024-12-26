@@ -1,0 +1,371 @@
+.sPro_Firstbackground {
+    background-image: url(../Images/contactus\ banner.svg);
+    padding: 80px 0px 80px 0px;
+    background-size: cover;
+}
+
+.sPro_FirstOne {
+    margin: auto;
+}
+
+.sPro_firstHeading {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sPro_firstPara {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sPro_Buttongroup {
+    display: flex;
+    gap: 20px;
+}
+
+.sPro_Getstarted,
+.sPro_Book {
+    background: #fff;
+    border-radius: 8px;
+    color: #4D249B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 20px 8px 20px;
+}
+
+.sPro_Getstarted:hover,
+.sPro_Book:hover {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* ----------------------------------------First Section Ends Here------------------------------------- */
+
+/* ------------------------------Second Section----------------------------------------- */
+
+.sPro_Firstcontext {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .05);
+    margin: auto;
+    margin-top: -30px;
+    padding: 30px 30px 30px 30px;
+    max-width: 70%;
+}
+
+.sPro_Why {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sPro_FirstPara {
+    color: #5d5c5c;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+/* ------------------------------Second Section ends here--------------------------------- */
+
+/* -------------------------------------Third section-------------------------------------- */
+
+.sPro_thirdHeading {
+    margin-top: 80px;
+}
+
+.sPro_Heading3 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sPro_numBer {
+    color: #4D249B;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sPro_Img333 {
+    width: 20%;
+    height: auto;
+}
+
+.sPro_Img333 img {
+    width: 100%;
+    height: auto;
+}
+
+.sPro_Group3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.sPro_Box111{
+padding: 20px;
+border-radius: 8px;
+background: #fefefe;
+box-shadow: 0 1rem 1rem rgba(22, 28, 45, .05);
+}
+
+.sPro_Img333 {
+    margin: auto;
+}
+
+.sPro_Easy {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sPro_ThirdPara {
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+/* ------------------------------------third section ends here----------------------------------- */
+
+/* -----------------------------Fourth Section----------------------------------------- */
+
+.sPro_fourthBackground {
+    background: #f9ece2;
+    padding: 80px 0px 80px 0px;
+}
+
+.sPro_Fourth {
+    margin: auto;
+}
+
+.sPro_FourthHeading {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sPro_Para4 {
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sPro_FOurthDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sPro_Image4 {
+    width: 90%;
+    height: auto;
+}
+
+.sPro_Image4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ---------------------------------------Fourth section ends here---------------------------------------- */
+
+/* -----------------------------Fifth Section----------------------------------------- */
+
+.sPro_fifthbackground {
+    padding: 50px 0px 50px 0px;
+}
+
+.sPro_Fifth {
+    margin: auto;
+}
+
+.sPro_fifthHeading {
+    display: grid;
+    justify-content: end;
+}
+
+.sPro_FifthHeading {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sPro_Para5 {
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sPro_fifthDiv {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sPro_Image5 {
+    width: 90%;
+    height: auto;
+}
+
+.sPro_Image5 img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------Fifth section ends here---------------------------------------- */
+
+/* -------------------------------Sixth Section---------------------------------- */
+
+.sPro_Sixthbackground {
+    background: #e1f9d7;
+    padding: 80px 0px 80px 0px;
+}
+
+.sPro_Heading6 {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sPro_Para6,
+.sPro_SixthPara {
+    color: #5d5c5c;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.sPro_Group8899 {
+    display: flex;
+    gap: 15px;
+}
+
+.sPro_Use {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ---------------------------------------Sixth Section ends here------------------------------------- */
+
+/* ---------------------------------Seventh Section------------------------------------ */
+
+.sPro_Seventhbackground {
+    padding: 50px 0px 50px 0px;
+}
+
+.sPro_SeventhBox {
+    background: #f3f3f3;
+    border-radius: 8px;
+    padding: 50px 30px 50px 30px;
+    max-width: 70%;
+    margin: auto;
+}
+
+.sPro_Heading7 {
+    color: #4D249B;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sPro_Started {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sPro_Button7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.sPro_Trial,
+.sPro_TryDemo {
+    color: #fff;
+    background: #4D249B;
+    border-radius: 8px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sPro_Trial:hover,
+.sPro_TryDemo:hover {
+    color: #4D249B;
+    background: none;
+    border: 1px solid #4D249B;
+}
+
+/* ---------------------------------Seventh Section ends here------------------------------------ */
+
+/* -----------------------------------------Responsive--------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+    .sPro_First {
+        min-width: 100%;
+    }
+
+    .sPro_FirstOne,
+    .sPro_Firstcontext, .sPro_SeventhBox {
+        min-width: 100%;
+    }
+
+    .sPro_Image4,
+    .sPro_Image5 {
+        min-width: 100%;
+        margin: auto;
+    }
+
+    .sPro_FourthHeading, .sPro_FifthHeading {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,425 @@
+.spricing_firstSection {
+  background-image: url("./Images//laptop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.spricing_aboutMain {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.spricing_aboutUs {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+}
+.spricing_firstPara {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* ------Second--------- */
+
+.spricing_firstlist {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+.spricing_homeList {
+  list-style-type: none;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: none;
+}
+.spricing_aboutList {
+  color: #4d249b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: none;
+}
+.spricing_secondMainDiv {
+  background-color: #f0f0f0;
+}
+.spricing_secondSecDiv {
+  text-align: center;
+  padding: 50px;
+}
+.spricing_thirdAboutUs {
+  color: #4d249b;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0px;
+}
+.spricing_customerRelation {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+.spricing_secondPara {
+  color: #647390;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ----------Third----------- */
+
+.spricing_features {
+  display: flex;
+  padding: 5px 20px;
+}
+.spricing_firstCard {
+  border-radius: 10px;
+  height: 870px;
+}
+
+.spricing_firstTickMail {
+  padding: 0px 10px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.spricing_proHead {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  background: #12cf17;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.spricing_paraCard1 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background: #dcffdd;
+  padding: 20px;
+  margin-top: -10px;
+}
+.spricing_rupeeSign {
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.spricing_rupees {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.spricing_perMonth {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.spricing_monthlyBill {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 0px 20px;
+}
+.spricing_includesHead {
+  color: #000;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  padding-left: 20px;
+}
+.spricing_contactUsers {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  padding-left: 20px;
+}
+.spricing_additionalUsers {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 10px 20px;
+}
+.spricing_twentyRupees {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+}
+.spricing_coreFeature {
+  color: #12cf17;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 20px;
+}
+.spricing_signButton {
+  padding: 10px 20px 30px 20px;
+}
+.spricing_signUp {
+  background-color: #12cf17;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+}
+.spricing_signUp:hover {
+  border: 2px solid #12cf17;
+  color: #12cf17;
+}
+
+/* -----card2-------- */
+.spricing_maxHead {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  background: #0563d1;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.spricing_paraCard2 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background: #e4f1ff;
+  padding: 20px;
+  margin-top: -10px;
+}
+.spricing_proPlus {
+  color: #0563d1;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 20px;
+}
+.spricing_signUp2 {
+  background-color: #0563d1;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+}
+.spricing_signUp2:hover {
+  border: 2px solid #0563d1;
+  color: #0563d1;
+}
+/* -----card3------ */
+
+.spricing_ultimateHead {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  background: #f6c000;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.spricing_paraCard3 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background: #fff7db;
+  padding: 20px;
+  margin-top: -10px;
+}
+.spricing_featurePlus {
+  color: #f6c000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 20px;
+}
+.spricing_signUp3 {
+  background-color: #f6c000;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+}
+.spricing_signUp3:hover {
+  border: 2px solid #f6c000;
+  color: #f6c000;
+}
+/* -------Fourth------- */
+
+.spricing_fourthSection {
+  background-color: #fafafa;
+}
+
+.spricing_leftColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.spricing_customerHelp {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.spricing_customerSubscription {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.spricing_supportDiv {
+  display: flex;
+}
+.spricing_supportHead {
+  padding-left: 15px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+.spricing_customerSupport {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.spricing_customerSupport img {
+ border-radius: 10px;
+}
+
+/* -----Responsive----- */
+
+@media screen and (max-width: 1200px) {
+  .spricing_features {
+    padding: 3px 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .spricing_features {
+    padding: 3px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .spricing_secCard {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+.spricing_proHead,.spricing_maxHead, .spricing_ultimateHead {
+    font-size: 34px;
+}
+
+.spricing_paraCard1, .spricing_paraCard3, .spricing_monthlyBill{
+  font-size: 14px;
+}
+
+.spricing_paraCard2{
+  font-size: 15px;
+}
+
+.spricing_rupeeSign, .spricing_perMonth {
+  font-size: 24px;
+  padding-top: 0px;
+}
+
+.spricing_rupees{
+  font-size: 24px;
+}
+
+.spricing_includesHead {
+  font-size: 20px;
+}
+
+.spricing_contactUsers{
+  font-size: 16px;
+}
+
+.spricing_additionalUsers {
+  padding: 0px 20px;
+}
+
+.spricing_coreFeature, .spricing_proPlus, .spricing_featurePlus  {
+  font-size: 20px;
+}
+.spricing_firstTickMail {
+  font-size: 14px;
+}
+
+.spricing_proPlus, .spricing_featurePlus {
+  padding: 20px 20px 0px 20px;
+}
+
+.spricing_signUp3, .spricing_signUp, .spricing_signUp2  {
+  padding: 10px!important;
+  bottom: 7px;
+}
+
+.spricing_supportHead {
+  font-size: 18px;
+}
+
+.spricing_customerSupport{
+  padding: 0;
+}
+
+.spricing_lastImg{
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 992px){
+.SLA_copyWrite {
+  padding: 20px 6px;
+}
+}

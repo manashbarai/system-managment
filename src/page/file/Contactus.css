@@ -1,0 +1,239 @@
+.sc_Firstbackground {
+    background-image: url(./Images/contactus\ banner.svg);
+    padding: 100px 0px 120px 0px;
+    background-size: cover;
+}
+
+.sc_firstHeading {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+.sc_firstPara {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ----------------------------------------First Section Ends Here------------------------------------- */
+
+/* ------------------------------------Second Section------------------------------- */
+
+.sc_Secondgroup {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.sc_Home {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* 187.5% */
+}
+
+.sc_Contact {
+    color: #4D249B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* 187.5% */
+}
+
+/* ------------------------------------------Second Section Ends Here------------------------------- */
+
+/* ---------------------------------------Third Section---------------------------------- */
+
+.sc_Thirdbackground {
+    background: #F0F0F0;
+    padding: 50px 0px 60px 0px;
+}
+
+.sc_ContactUs {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 194.444% */
+    text-align: center;
+}
+
+.sc_Para3 {
+    color: #647390;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.sc_Form {
+    background: #fff;
+    padding: 40px 40px 60px 60px;
+}
+
+.sc_Getin {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sc_Friendly{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sc_Row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sc_Inputarea{
+    width: 95%;
+}
+
+.sc_firstName, .sc_lastName, .sc_Email, .sc_Phone, .sc_Message{
+    color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sc-sendMessage{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sc_Send{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+border-radius: 6px;
+background: #4D249B;
+padding: 10px 25px 10px 25px;
+}
+.sc_Send:hover{
+    color: #FFF;
+background: #4D249B;
+}
+
+/* ------------------------------Third Section ends Here-------------------------------- */
+
+/* -----------------------------Fourth Section------------------------------------------ */
+
+.sc_Fourthbackground{
+    padding: 70px 0px 50px 0px;
+}
+.sc_Fourthgroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sc_suPPort{
+    color: #000;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 218.75% */
+}
+
+.sc_contactSection{
+    border-radius: 10px;
+border: 1px solid #DBD4E9;
+background: #F3F3F3;
+padding: 30px 0px 30px 30px;
+}
+
+.sc_contactSection1{
+    border-radius: 10px;
+border: 1px solid #DBD4E9;
+background: #F3F3F3;
+padding: 30px 0px 13px 30px;
+}
+
+.sc_Contactinfo{
+    color: #4D249B;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 83.333% */
+}
+
+.sc_contactGroup{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.sc_contactGroup1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sc_Phoneno{
+    color: #040404;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+.sc_crmMail{
+    color: #040404;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+
+.sc_Address{
+    color: #040404;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+
+/* ------------------------------------------Fourth Section ends Here-------------------------------- */
+
+/* -----------------------------Responsive------------------------------------- */
+
+
+@media screen and (max-width: 768px){
+    .sc_Inputbox{
+        min-width: 100%;
+    }
+}
+
+
+

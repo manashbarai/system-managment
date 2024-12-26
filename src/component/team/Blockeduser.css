@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.SBU_main {
+    border-radius: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+
+}
+
+.SBU_Heading {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.SBU_Name {
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+.SBU_Heading1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.SBU_Name1 {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.SBU_Email,
+.SBU_User {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.SBU_assign {
+    list-style: none;
+}
+
+.SBU_BlockButton {
+    border-radius: 4px;
+    border: 1px solid #FFB1B1;
+    background: #FFE2E2;
+    color: #F00;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SBU_BlockButton:hover {
+    background: #ec9090;
+    color: #FFF;
+}
+
+.SBU_AssignButton {
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #D4CCE3;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SBU_AssignButton:hover {
+    background: rgb(183, 157, 232);
+    color: #FFF;
+}
+
+/* -----------------------Responsive--------------------------------- */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 540px) {
+
+    .SBU_Heading {
+        display: block;
+        text-align: center;
+    }
+
+    .SBU_Heading1 {
+        display: block;
+        text-align: center;
+    }
+
+    .SBU_Name1,
+    .SBU_Email,
+    .SBU_User {
+        display: flex;
+        justify-content: center;
+    }
+}

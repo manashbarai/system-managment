@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+ 
+}
+.SC_upperSection{
+    margin: auto;
+    
+  
+}
+.SC_main {
+    border-radius: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(206, 206, 206, 0.25);
+
+}
+
+.SC_createButton{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    border-bottom: 2px solid #E2E2E2 ;
+}
+.SC_Createteam{
+    border-radius: 4px;
+border: 1px solid rgba(95, 73, 138, 0.25);
+background: #5F498A;
+color: #FFF;
+font-family: Nunito;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 5px;
+padding: 10px;
+}
+
+.SC_Createteam:hover{
+    background: rgb(178, 154, 228);
+    color: #FFF;
+    border: none;
+}
+
+.SC_Heading {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.SC_Name {
+    list-style: none;
+    color: rgba(168, 168, 168, 0.75);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+.SC_Heading1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E2E2E2;
+    width: 90%;
+}
+
+.SC_Name1 {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.SC_Email,
+.SC_User {
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.SC_assign {
+    list-style: none;
+}
+
+.SC_BlockButton {
+    border-radius: 4px;
+    border: 1px solid #FFB1B1;
+    background: #FFE2E2;
+    color: #F00;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SC_BlockButton:hover {
+    background: #ec9090;
+    color: #FFF;
+}
+
+.SC_AssignButton {
+    border-radius: 4px;
+    border: 1px solid rgba(95, 73, 138, 0.25);
+    background: #D4CCE3;
+    color: #5F498A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.SC_AssignButton:hover {
+    background: rgb(183, 157, 232);
+    color: #FFF;
+}
+
+/* -----------------------Responsive--------------------------------- */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 540px) {
+
+    .SC_Heading {
+        display: block;
+        text-align: center;
+    }
+
+    .SC_Heading1 {
+        display: block;
+        text-align: center;
+    }
+
+    .SC_Name1,
+    .SC_Email,
+    .SC_User {
+        display: flex;
+        justify-content: center;
+    }
+}

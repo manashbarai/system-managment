@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5F498A;
+    font-family: 'Nunito', sans-serif;   
+     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+}
+
+.A_main{
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    column-gap: 30px;
+}
+.A_log{
+    color: #fff;
+    text-align: center;
+    
+}
+.A_email::placeholder{
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: #FFF;
+    
+}
+.A_email{
+    background-color: #5F498A;
+    color: #fff;
+    border: 1px solid #AB96DB;
+    font-weight: 400;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 50px;
+    width: 100%;
+    height: 45px;   
+}
+.A_passwrd{
+    background-color: #5F498A;
+    color: #fff;
+    border: 1px solid #AB96DB;
+    font-weight: 400;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 50px;
+    width: 100%;
+    height: 45px;
+   
+}
+.A_passwrd::placeholder{
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: #FFF;
+}
+.A_word{
+    
+}
+.A_Forget{
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+}
+.A_logbtn{
+    color: #5F498A;
+    background-color: #edecec;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    margin: auto;
+}
+.A_logbtn:hover{
+    background-color: #26193f;
+    color: #FFF;
+}
+.A_envelope{
+    position: relative;
+    bottom: 36px;
+    left: 18px;
+    width: 20px;
+}
+.A_lock{
+    position: relative;
+    bottom: 36px;
+    left: 18px;
+    width:20px;
+}
+
+.A_Remember{
+    color:#9C9C9C;
+    padding-left: 5px; 
+}
+.A_forgot{
+    color:#9C9C9C;
+    padding-left: 23px;
+}
+.A_forgot:hover{
+    color:#fff
+}
+.A_agree{
+    padding-right: 10px;
+    text-align: center;
+    color: #9C9C9C;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.A_sign{
+    color: #FFF;
+     font-family: Nunito;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+.A_sign:hover{
+    color: #fff;
+}
+.A_understand{
+    padding-left: 15px;
+}
