@@ -62,7 +62,7 @@ const Candidatehistory = (props) => {
         const data = {
             email: email,
             data: "Grab Your Dream Job By Upskilling Yourself And Kick Start Of Your Career. Learn today’s most in-demand tech skills and kickstart your new career with Edureify..! ",
-            website: "https://www.edureify.com/"
+            // website: "https://www.edureify.com/"
         }
         try {
             const sendMail = await axios.post(`${process.env.REACT_APP_API}leadCandidate`, data, { headers })
